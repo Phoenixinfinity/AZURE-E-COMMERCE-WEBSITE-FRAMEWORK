@@ -157,25 +157,7 @@ hr {
 #bar.active {
   color: white;
 }
-@media only screen and (max-width: 991px) {
-  body > nav > div > button:hover,
-  body > nav > div > button:focus {
-    background-color: #fb774b;
-  }
-  body > nav > div > button:hover #bar,
-  body > nav > div > button:focus #bar {
-    color: white;
-  }
-  #navbarSupportedContent > ul {
-    margin: 1rem;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-align: right;
-  }
-  #navbarSupportedContent > ul > li:nth-child(n) > a {
-    padding: 10px 0px;
-  }
-}
+
 
 /*----home Page background---------*/
 #home {
@@ -583,4 +565,130 @@ form p {
 /*----Chat-bot--------------------*/
 .chat{
   margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 991px) {
+  body > nav > div > button:hover,
+  body > nav > div > button:focus {
+    background-color: #ffffff;
+  }
+  body > nav > div > button:hover #bar,
+  body > nav > div > button:focus #bar {
+    color: white;
+  }
+  #navbarSupportedContent > ul {
+    margin: 1rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+  }
+  #navbarSupportedContent > ul > li:nth-child(n) > a {
+    padding: 10px 0px;
+
+  }
+  .sub-menu {
+    display: none;
+  }
+  #navbarSupportedContent ul li:hover .sub-menu {
+    display: inherit;
+    position: relative;
+    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    background: white;
+    box-shadow: 0;
+  }
+  #navbarSupportedContent ul li:hover .sub-menu ul {
+    display: inherit;
+    margin: 0;
+    list-style: none;
+  }
+  
+  #navbarSupportedContent ul li:hover .sub-menu ul li {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 0;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+  }
+  #navbarSupportedContent ul li:hover .sub-menu ul li a {
+    color: #222222;
+  }
+  #navbarSupportedContent ul li:hover .sub-menu ul li:last-child {
+    border-bottom: none;
+    
+  }
+  #navbarSupportedContent ul li:hover .sub-menu ul li a:hover {
+    color: coral;
+  }
+  .navbar-light .navbar-nav .nav-link::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: coral;
+    visibility: hidden;
+    left: 10px;
+    bottom: -30px;
+    transition: 0.5s;
+  }
+  /*-------mobile view contact us-----------*/
+  .contactUs .title h2{
+    font-size: 2em;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #d66039;
+    
+  }
+  .contactUs{
+    position: relative;
+    width: 100%;
+    margin-top: 93px;
+    padding: 60px 0;
+    text-align: center;
+  }
+  #name{
+    margin-left: 15px;
+    justify-items: left;
+  }
+  .contactform{
+    margin-top: 0px;
+  }
+  .form-label{
+    margin-bottom: 0px;
+  }
+  #space{
+    margin-bottom: 30px;
+  }
+  #message{
+    margin-bottom: 10px;
+  }
+  #send{
+    width: 50%;
+  }
+  .thankyou-page ._header {
+    background: coral;
+    padding: 179px 30px;
+    text-align: center;
+    background: coral url(https://codexcourier.com/images/main_page.jpg) center/cover no-repeat;
+  }
+  .chat{
+    margin-left: 10px;
+   
+  }
+  .hellobot{
+    padding-top: 800px;
+  }
+  #home {
+    background-image: url("img/back.jpg");
+    width: 100%;
+    height: 55vh;
+    background-size: cover;
+    background-position: top 60px center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
