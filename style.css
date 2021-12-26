@@ -683,7 +683,7 @@ form p {
   #home {
     background-image: url("img/back.jpg");
     width: 100%;
-    height: 55vh;
+    height: 100vh;
     background-size: cover;
     background-position: top 60px center;
     display: flex;
