@@ -65,11 +65,11 @@ session_start()
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="blog.php">Blog</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="contact_us.php">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="login.php">LOGIN</a>
