@@ -7,3 +7,11 @@ This website is fully functional with login system, signup system and adding com
 This website succesfully places the order of the purchase item. 
 If any user wants to contact with the website team the can do it using the contact us section present on the nav-list in the web pages.
 The contact_us page is supported by AZURE BOT i.e azure bot is installed so as the user get clearified with on-spot questions to make the shooping easier on the website.     
+
+
+Full website with successfully connection with the backend is hosted with 00webhost.
+Link:-https://rymoe-commerce.000webhostapp.
+
+The website can be viewed (ONLY VIEW) through AZURE
+Link:- https://rymo.azurewebsites.net
+
