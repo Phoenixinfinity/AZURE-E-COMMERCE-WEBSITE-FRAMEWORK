@@ -75,26 +75,26 @@ session_start();
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
+                        <a class="nav-link" href="shop.php">Shop</a>
                         <div class="sub-menu">
                             <ul>
-                                <li><a href="#">MEN</a></li>
-                                <li><a href="#">WOMEN</a></li>
-                                <li><a href="#">BOYS</a></li>
-                                <li><a href="#">GIRLS</a></li>
-                                <li><a href="#">NEW ARRIVALS</a></li>
-                                <li><a href="#">SHOES</a></li>
-                                <li><a href="#">WATCHES</a></li>
+                                <li><a href="men.php">MEN</a></li>
+                                <li><a href="women.php">WOMEN</a></li>
+                                <li><a href="men.php">BOYS</a></li>
+                                <li><a href="women.php">GIRLS</a></li>
+                                <li><a href="featured.php">NEW ARRIVALS</a></li>
+                                <li><a href="shoes.php">SHOES</a></li>
+                                <li><a href="watches.php">WATCHES</a></li>
                             </ul>
 
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="blog.php">Blog</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="contact_us.php">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="login.php">LOGIN</a>
