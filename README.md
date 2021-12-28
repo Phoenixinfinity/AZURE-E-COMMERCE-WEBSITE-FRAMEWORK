@@ -10,7 +10,7 @@ The contact_us page is supported by AZURE BOT i.e azure bot is installed so as t
 
 
 Full website with successfully connection with the backend is hosted with 00webhost.
-Link:-https://rymoe-commerce.000webhostapp.
+Link:-https://rymoe-commerce.000webhostapp.com/
 
 The website can be viewed (ONLY VIEW) through AZURE
 Link:- https://rymo.azurewebsites.net
